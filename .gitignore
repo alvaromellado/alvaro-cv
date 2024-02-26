@@ -48,3 +48,6 @@ Thumbs.db
 *.mov
 *.wmv
 
+#Latex ignore
+*.aux
+*.pdf
