@@ -30,7 +30,7 @@
 %	TITLE AND CONTACT INFORMATION
 %----------------------------------------------------------------------------------------
 
-\begin{minipage}[t]{0.45\textwidth} % 45% of the page width for name
+\begin{minipage}[t]{0.6\textwidth} % 45% of the page width for name
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
 	
 	% If your name is very short, use just one of the lines below
@@ -44,10 +44,7 @@
 	{\huge Ingeniería de Sistemas TIC} % Career or current job title
 \end{minipage}
 \begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the first row of icons
-	\vspace{-\baselineskip} % Required for vertically aligning minipages
-	
-	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
-	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+	\vspace{-\baselineskip}
 	\icon{MapMarker}{12}{Manresa}\\
 	\icon{Phone}{12}{+34 620 395 887}\\
 	\icon{At}{12}{\href{mailto:alvaro@mellado.cat}{alvaro@mellado.cat}}\\	
@@ -70,11 +67,10 @@
 
 \begin{minipage}[t]{0.4\textwidth} % 40% of the page width for the introduction text
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
-	
     Soy un estudiante de Ingeniería de Sistemas TIC, interesado por la soberanía tecnológica, la sostenibilidad de los servicios TIC y las tecnologías web.
-    \\
-    \\
-    Soy una persona inquieta interesada en aportar lo mejor de mi en mi entorno, por eso he participado en la coordinación de equipos en diferentes ámbitos aunque esos no hayan sido laborales.
+    \vspace{\baselineskip}
+
+    Soy una persona inquieta interesada en aportar lo mejor de mí en mi entorno, por eso he participado en la coordinación de equipos en diferentes ámbitos aunque esos no hayan sido laborales.
 \end{minipage}
 \hfill % Whitespace between
 \begin{minipage}[t]{0.5\textwidth} % 50% of the page for the skills bar chart
@@ -83,9 +79,7 @@
 		\baritem{Go}{60}
 		\baritem{Python}{100}
 		\baritem{C}{80}
-		\baritem{HTML y CSS}{90}
 		\baritem{GIT}{100}
-		\baritem{JS}{60}
 		\baritem{C\#}{80}
 	\end{barchart}
 \end{minipage}
@@ -97,50 +91,51 @@
 \cvsect{Experiencia}
 
 \begin{entrylist}
-
 	\entry
-		{2023 -- 2024\\}
+		{2024 -- Actualidad\\}
+		{DevOps / IT}
+		{Experis España Manpower Group}
+		{Consultoria dedicada al mantenimiento de IT en el País, trabájabamos para ITNow (CaixaBank) en el mantenimiento y actualización de automatizaciones en Ansible, también  hacíamos propuestas arquitectónicas para integrar su ecosistema de helpdesk.
+		\\ \texttt{Windows}\slashsep\texttt{Ansible}\slashsep\texttt{Linux}\slashsep\texttt{Jenkins}}
+	\entry
+		{2023 -- 2024}
 		{Desarrollador Odoo / DevOps / IT}
 		{SOM IT SCCL}
 		{Cooperativa de segundo grado que proporciona servicios de consultoría y desarrollo de software a otras cooperativas y empresas.
 
-		Estos últimos meses me he dedicado a la transformación del stack de infraestructura de la empresa, pasando de el clásico stack de Ansible (Inventory, Playbooks, Roles) a Docker i Docker Compose. Todo esto con las singularidades del software de Odoo, que es el software principal de la empresa. También he trabajado en la creación de módulos de Odoo. \\
+		Durante este tiempo, me he dedicado a la transformación del stack de infraestructura de la empresa, pasando del clásico stack de Ansible (Inventory, Playbooks, Roles) a Docker i Docker Compose. Todo esto con las singularidades del software de Odoo, que es el software principal de la empresa. También he trabajado en la creación de módulos de Odoo.
 		\\ \texttt{Python}\slashsep\texttt{Odoo}\slashsep\texttt{Docker}\slashsep\texttt{Linux}\slashsep\texttt{Gitlab Pipelines}
 		}
 	\entry
-		{2022 -- 2023\\}
+		{2022 -- 2023}
 		{Desarrollador backend / DevOps / IT}
 		{IZI Record}
 		{Empresa emergente del sector multimedia que proporciona un servicio de edición automática de vídeos.
 
-		Trabajé en una empresa donde me dediqué al mantenimiento, gestión y renovación de todo el software no relacionado con Inteligencia Artificial. La herramienta principal fue Flask, pero también trabajé en la renovación de la arquitectura tanto del software como de la infraestructura. Mi última tarea fue pasar de un concepto de prueba del producto a un MVP y prepararlo para escalar, utilizando la arquitectura de Domain Driven Design. \\
-
-		\\ \texttt{Python}\slashsep\texttt{Jira}\slashsep\texttt{MongoDB}\slashsep\texttt{Linux}\slashsep\texttt{Gitlab Pipelines}\slashsep\texttt{Flask}\slashsep\texttt{OpenAPI} }
-
+		Trabajé en una empresa donde me dediqué al mantenimiento, gestión y renovación de todo el software no relacionado con Inteligencia Artificial. La herramienta principal fue Flask, pero también trabajé en la renovación de la arquitectura tanto del software como de la infraestructura. Mi última tarea fue pasar de un concepto de prueba del producto a un MVP y prepararlo para escalar, utilizando la arquitectura de Domain Driven Design.
+		\\ \texttt{Python}\slashsep\texttt{Jira}\slashsep\texttt{MongoDB}\slashsep\texttt{Linux}\slashsep\texttt{Gitlab Pipelines}\slashsep\texttt{Flask}\slashsep\texttt{OpenAPI}}
 	\entry
-		{2021 -- 2022\\}
+		{2021 -- 2022}
 		{Desarrollador / IT DevOps}
 		{UVE Solutions}
 		{Empresa del sector de gran consumo que proporciona una plataforma para integrar archivos y procesar datos, conectando así datos de consumidores, distribuidores y fabricantes.
 
-		Comencé como junior en el equipo de ETL, utilizando .NET en todo momento. Posteriormente, con la transición del CI/CD a Azure DevOps y comenzando a crear microservicios, fui asignado al equipo CORE/DevOps, donde me encargué de brindar soporte a IT y crear microservicios y trabajos en Kubernetes. También trabajé con herramientas como ElasticSearch, RabbitMQ y Prometheus. \\
-		
-		\\ \texttt{C\#}\slashsep\texttt{Jira}\slashsep\texttt{SQL Server}\slashsep\texttt{Windows}\slashsep\texttt{Linux}\slashsep\texttt{Azure DevOps}
-		}
-		
+		Comencé como junior en el equipo de ETL, utilizando .NET en todo momento. Posteriormente, con la transición del CI/CD a Azure DevOps y comenzando a crear microservicios, fui asignado al equipo CORE/DevOps, donde me encargué de brindar soporte a IT y crear microservicios y trabajos en Kubernetes. También trabajé con herramientas como ElasticSearch, RabbitMQ y Prometheus.
+		\\ \texttt{C\#}\slashsep\texttt{Jira}\slashsep\texttt{SQL Server}\slashsep\texttt{Windows}\slashsep\texttt{Linux}\slashsep\texttt{Azure DevOps}}
 	\entry
-		{2016 -- 2016\\}
+		{2016 -- 2016}
 		{Estudiante en Prácticas}
 		{Ajuntament de Manresa}
 		{ 
-			Hice mis prácticas en el ayuntamiento de mi municipio, donde me encargué del mantenimiento de equipos y la resolución de incidencias del personal que trabajaba para la institución. \\ \\ \\ \\ \\ \\ 
-			}
+			Hice mis prácticas en el ayuntamiento de mi municipio, donde me encargué del mantenimiento de equipos y la resolución de incidencias del personal que trabajaba para la institución.}
 
 \end{entrylist}
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION
 %----------------------------------------------------------------------------------------
+\clearpage
+
 
 \cvsect{Educación}
 
@@ -149,10 +144,10 @@
 		{2017 -- 2021}
 		{Grado Universitario en Ingeniería de Sistemas TIC}
 		{Universitat Politècnica de Catalunya}
-		{Dentro de mi universidad he realizado muchas tareas en el tejido asociativo, político y también relacionado con la Ingeniería. Aún no tengo el título físico, pero tengo un justificante que confirma que he superado los 240 ECTS, incluyendo el TFG.\\ \\ \\ \\}
+		{Dentro de mi universidad he realizado muchas tareas en el tejido asociativo, político y también relacionado con la Ingeniería. Aún no tengo el título físico, pero tengo un justificante que confirma que he superado los 240 ECTS, incluyendo el TFG.}
 \end{entrylist}
 
-\cvsect{Experiéncia otros}
+\cvsect{Experiencia otros}
 
 \begin{entrylist}
 	\entry
@@ -160,9 +155,8 @@
 	{Coordinador de Política Universitaria}
 	{Consell de l'Estudiantat.}
 	{Cargo elegido democráticamente por los miembros del Consejo donde desarrollé tareas de coordinación de grupos de trabajo, redacción de mociones y enmiendas, relación entre estudiantes interuniversitarios y propuestas a RD o RDL. \\ }
-
 	\entry
-	{2016 -- 2018\\}
+	{2016 -- 2018}
 	{Voluntario Cruz Roja}
 	{Cruz Roja Manresa}
 	{Durante dos años estuve haciendo voluntariado en el sector de la infancia de Cruz Roja, donde aprendí dinámicas de entretenimiento para niños y también a trabajar en equipo en otros sectores como Cruz Roja Juventud. \\ }
